@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"strict": true,
+		"rootDir": ".",
+		"declaration": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"downlevelIteration": true,
+		"inlineSourceMap": true,
+		"declarationMap": true,
+		"importHelpers": true,
+		"resolveJsonModule": true,
+		"composite": true,
+		"skipLibCheck": true,
+		"noImplicitOverride": true,
+		"allowArbitraryExtensions": true
+	},
+	"include": ["src", "test", "aztec-contracts/**/*.json"],
+	"exclude": ["node_modules"]
+}
